@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 const String _name="Ali";
 
-class CahtMassage extends StatelessWidget
+class ChatMassage extends StatelessWidget
 {
   final String message;
 
-  CahtMassage.withText({this.message});
+  ChatMassage.withText({this.message});
 
   @override
   Widget build(BuildContext context) {
